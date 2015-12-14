@@ -1,0 +1,20 @@
+{
+    "name": "seb/app-cart",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "efseb",
+            "email": "seb.efther@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "classmap" : [
+            "src"
+        ],
+        "psr-4":{
+          "" : "src/"
+        }
+    }
+}
